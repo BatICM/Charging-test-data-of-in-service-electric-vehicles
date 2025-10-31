@@ -27,33 +27,30 @@ The dataset can be used to:
 ```
 Charging-test-data-of-in-service-electric-vehicles/
 │
-├── vehicle_01.csv
-├── vehicle_02.csv
-├── ...
-├── vehicle_10.csv
+├── BatPackdata.mat
 └── README.md
 ```
 
 Each file corresponds to one EV battery pack tested in the study.
 
-| File name      | Rated Capacity (Ah) | Cell Count | Real SOH (%) |
-| -------------- | ------------------- | ---------- | ------------ |
-| vehicle_01.csv | 234                 | 96         | 94.30        |
-| vehicle_02.csv | 174                 | 104        | 93.85        |
-| vehicle_03.csv | 100                 | 84         | 78.91        |
-| vehicle_04.csv | 115                 | 100        | 87.77        |
-| vehicle_05.csv | 174                 | 96         | 82.21        |
-| vehicle_06.csv | 100                 | 88         | 92.87        |
-| vehicle_07.csv | 110                 | 90         | 96.98        |
-| vehicle_08.csv | 152                 | 108        | 90.81        |
-| vehicle_09.csv | 150                 | 84         | 101.71       |
-| vehicle_10.csv | 100                 | 90         | 99.08        |
+| vehicle name | Rated Capacity (Ah) | Cell Count | Real SOH (%) |
+| ------------ | ------------------- | ---------- | ------------ |
+| vehicle_01   | 234                 | 96         | 94.30        |
+| vehicle_02   | 174                 | 104        | 93.85        |
+| vehicle_03   | 100                 | 84         | 78.91        |
+| vehicle_04   | 115                 | 100        | 87.77        |
+| vehicle_05   | 174                 | 96         | 82.21        |
+| vehicle_06   | 100                 | 88         | 92.87        |
+| vehicle_07   | 110                 | 90         | 96.98        |
+| vehicle_08   | 152                 | 108        | 90.81        |
+| vehicle_09   | 150                 | 84         | 101.71       |
+| vehicle_10   | 100                 | 90         | 99.08        |
 
 ---
 
 ### 2. Data Columns
 
-Each CSV file contains synchronized measurements collected during a **constant-current–constant-voltage (CC–CV) charging test**.
+Each vehicle contains synchronized measurements collected during a **constant-current–constant-voltage (CC–CV) charging test**.
 
 | Column                | Unit | Description                          |
 | --------------------- | ---- | ------------------------------------ |
